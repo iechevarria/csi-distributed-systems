@@ -2,12 +2,12 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
 	"fmt"
 	"os"
 	"os/signal"
 	"strings"
 	"syscall"
-	"encoding/json"
 )
 
 // using json because it's human-readable
